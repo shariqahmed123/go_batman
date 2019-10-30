@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+div img{
+    width: 800px;
+animation: 20s infinite batman;
+transition: .9s;
+position: absolute;
+top: 20%;
+left: 45%;
+}
+@keyframes batman{
+0%{
+    width: 100px;
+    left: 45%;
+}
+/* 10%{
+    width: 120px;
+}
+20%{
+    width: 180px;
+}
+30%{
+    width: 240px
+}
+40%{
+    width: 300px; */
+100%{
+ width:900px;
+ left: 25%;
+}
+}
